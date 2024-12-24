@@ -1,0 +1,24 @@
+# Foundry
+contracts/cache
+contracts/out
+contracts/lib
+
+# Node
+node_modules
+web/node_modules
+.next
+yarn.lock
+
+# OS
+.DS_Store
+
+# Ignores development broadcast logs
+contracts/broadcast
+contracts/broadcast/*/31337
+contracts/broadcast/**/dry-run
+
+# Docs
+contracts/docs
+
+# Dotenv file
+.envcontracts/lib/
